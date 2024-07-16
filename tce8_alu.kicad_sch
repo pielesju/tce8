@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5f992180-4ae0-4fb9-9ae2-1c17d11870b7")
+	(paper "A3")
+	(title_block
+		(title "ALU")
+		(date "2024-07-16")
+		(rev "0.0")
+		(company "Trivial Computing")
+	)
+	(lib_symbols)
+)

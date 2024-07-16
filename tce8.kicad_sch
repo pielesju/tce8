@@ -1,0 +1,63 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4427215b-9141-4931-a952-3604be8cf802")
+	(paper "A3")
+	(title_block
+		(title "TCE")
+		(date "2024-07-16")
+		(rev "0.0")
+		(company "Trivial Computing")
+	)
+	(lib_symbols)
+	(bus_alias "ADDR"
+		(members)
+	)
+	(bus_alias "DATA"
+		(members)
+	)
+	(sheet
+		(at 240.03 144.78)
+		(size 33.02 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fe6cc010-65b4-4355-bc8f-1a7c5dd9b9dd")
+		(property "Sheetname" "ALU"
+			(at 240.03 144.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tce8_alu.kicad_sch"
+			(at 240.03 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "tce8"
+				(path "/4427215b-9141-4931-a952-3604be8cf802"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
