@@ -1,4 +1,4 @@
-# Trivial Computation Engine (8bit Computer)
+# C74 - Trivial Computation Engine (8bit Computer)
 
 
 ## OP Codes
