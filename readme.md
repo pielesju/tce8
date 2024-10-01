@@ -1,5 +1,16 @@
 # C74 - Trivial Computation Engine (8bit Computer)
 
+The C74 is a concept for a really simple real 8 bit computer. Real 8 bits because
+both busses (data and address) are 8 bit.
+I had the idea for this project while developing an emulator for this imaginary machine.
+
+## Project Roadmap
+
+- Creating the logic
+- Building and testing the components (memory, alu, etc.) in Hardware one by one
+- Building the whole system
+
+_Another sideproject could be developing an Assembler and maybe a programming language_
 
 ## OP Codes
 
