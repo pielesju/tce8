@@ -1,0 +1,152 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b84acf67-ed93-4fc9-ae62-f73cc059e3da")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "CLOCK"
+		(shape input)
+		(at 96.52 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29563529-d180-4088-b2e1-b1f3f1585b61")
+	)
+	(hierarchical_label "ADDR_BUS_4"
+		(shape output)
+		(at 96.52 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e768dc1-74ed-4b52-9183-03459b9de265")
+	)
+	(hierarchical_label "ADDR_BUS_6"
+		(shape output)
+		(at 96.52 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "507fa477-a163-4f3d-b05e-3bb069eeef06")
+	)
+	(hierarchical_label "ADDR_BUS_0"
+		(shape output)
+		(at 96.52 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "542de077-d310-4fc7-b822-d0c30fc11f44")
+	)
+	(hierarchical_label "ADDR_BUS_5"
+		(shape output)
+		(at 96.52 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63b07727-c585-4200-bbcb-da91a35443c1")
+	)
+	(hierarchical_label "ADDR_BUS_7"
+		(shape output)
+		(at 96.52 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "714ae10e-bc52-421c-8eae-f80d492fe06b")
+	)
+	(hierarchical_label "PC_COUNT"
+		(shape input)
+		(at 138.43 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e41276a-10d4-4322-bb4d-908982c6625b")
+	)
+	(hierarchical_label "ADDR_BUS_2"
+		(shape output)
+		(at 96.52 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5ebcf68-bca1-4014-86a1-8c6d4c3634a6")
+	)
+	(hierarchical_label "PC_JUMP"
+		(shape input)
+		(at 137.16 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba97e604-ebae-49e5-99cc-2f24aea22429")
+	)
+	(hierarchical_label "PC_ENABLE"
+		(shape input)
+		(at 137.16 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c91b2a77-5dc4-4ae5-9b62-2b986bfb9076")
+	)
+	(hierarchical_label "ADDR_BUS_3"
+		(shape output)
+		(at 96.52 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da3a070d-d156-4fbc-a2b1-7d980bfb56ae")
+	)
+	(hierarchical_label "ADDR_BUS_1"
+		(shape output)
+		(at 96.52 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9744bf5-c619-46bf-bc72-b3d59d0125cc")
+	)
+)

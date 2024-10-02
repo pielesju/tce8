@@ -17,9 +17,81 @@
 	(bus_alias "DATA"
 		(members)
 	)
+	(hierarchical_label "B"
+		(shape input)
+		(at 223.52 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "123e1682-bfc2-4679-85a9-33abd2ebf18e")
+	)
+	(hierarchical_label "OP0"
+		(shape input)
+		(at 223.52 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76fb35d2-c11d-403e-a262-a4581dba1c9a")
+	)
+	(hierarchical_label "SUB"
+		(shape input)
+		(at 223.52 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c24b380-d5c7-4e29-8a55-55317ab65b0d")
+	)
+	(hierarchical_label "OP1"
+		(shape input)
+		(at 223.52 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e1ecd7a-9b70-44cd-bc0d-b2089d1ee703")
+	)
+	(hierarchical_label "A"
+		(shape input)
+		(at 223.52 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a014443c-5ec8-4b31-94e3-1c5eebe321e1")
+	)
+	(hierarchical_label "Cin"
+		(shape input)
+		(at 223.52 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc3181f6-7f5f-41cd-a7fa-4601da9d5ff4")
+	)
 	(sheet
-		(at 240.03 144.78)
-		(size 33.02 15.24)
+		(at 287.02 78.74)
+		(size 15.24 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -28,9 +100,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "fe6cc010-65b4-4355-bc8f-1a7c5dd9b9dd")
-		(property "Sheetname" "ALU"
-			(at 240.03 144.0684 0)
+		(uuid "22ba804f-c98a-4be6-9ccd-09819c4c6d80")
+		(property "Sheetname" "clock"
+			(at 287.02 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38,8 +110,76 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "tce8_alu.kicad_sch"
-			(at 240.03 160.6046 0)
+		(property "Sheetfile" "clock.kicad_sch"
+			(at 287.02 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HALT" input
+			(at 302.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "43efdd77-b3ac-400d-83e8-09054978609b")
+		)
+		(pin "CLOCK" output
+			(at 287.02 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "282cef2f-f151-491d-9399-a377e61012b7")
+		)
+		(pin "~CLOCK" output
+			(at 287.02 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc08bbcf-a350-4acd-8574-1c4aba197623")
+		)
+		(instances
+			(project "tce8"
+				(path "/4427215b-9141-4931-a952-3604be8cf802"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.25 76.2)
+		(size 24.13 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "84d85189-9250-4973-9e96-d1d026876e73")
+		(property "Sheetname" "1BitALU"
+			(at 222.25 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "one_bit_alu.kicad_sch"
+			(at 222.25 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,7 +190,165 @@
 		(instances
 			(project "tce8"
 				(path "/4427215b-9141-4931-a952-3604be8cf802"
-					(page "2")
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 287.02 92.71)
+		(size 44.45 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd6ac2c9-68aa-4948-8eab-41ebe1711b9b")
+		(property "Sheetname" "program counter"
+			(at 287.02 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "program_counter.kicad_sch"
+			(at 287.02 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADDR_BUS_0" output
+			(at 287.02 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9838c741-78fe-4eb2-8ab8-51d7fc4c72b6")
+		)
+		(pin "ADDR_BUS_1" output
+			(at 287.02 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b04a50a4-da52-4f37-9712-f17220bc5a39")
+		)
+		(pin "ADDR_BUS_4" output
+			(at 287.02 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7f0e64b4-d28d-4050-8934-69788da765cf")
+		)
+		(pin "ADDR_BUS_2" output
+			(at 287.02 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a480a2f6-2788-492b-9f81-0bc29c129d9a")
+		)
+		(pin "ADDR_BUS_5" output
+			(at 287.02 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2ff67d54-af68-4a1b-9f1e-6c18a873632c")
+		)
+		(pin "ADDR_BUS_6" output
+			(at 287.02 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "796ab52d-3c93-4037-b1e3-394683da82db")
+		)
+		(pin "ADDR_BUS_3" output
+			(at 287.02 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4161a493-c020-4ec5-9591-44e0cc1f26be")
+		)
+		(pin "ADDR_BUS_7" output
+			(at 287.02 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1694df18-4696-4353-85e4-35a51515b3bb")
+		)
+		(pin "CLOCK" input
+			(at 287.02 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7798502a-d3d4-4adf-a454-31bdac8cea98")
+		)
+		(pin "PC_ENABLE" input
+			(at 331.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c3aa30bc-60d4-4c07-9361-6e08e3d5e38d")
+		)
+		(pin "PC_COUNT" input
+			(at 331.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "46ce65bb-0078-4b53-87cc-1faa46b0872f")
+		)
+		(pin "PC_JUMP" input
+			(at 331.47 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a76501cc-9b2a-41e7-aa02-8eb0cee611d4")
+		)
+		(instances
+			(project "tce8"
+				(path "/4427215b-9141-4931-a952-3604be8cf802"
+					(page "3")
 				)
 			)
 		)
